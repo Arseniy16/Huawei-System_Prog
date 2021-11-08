@@ -1,0 +1,36 @@
+//1) learn about exit() void function
+
+/*    
+    if (Ctor(file, lines, input_file) < 0)
+        exit(EXIT_FAILURE); //return -1;
+*/
+    Ctor(file, lines, input_file);
+
+    int count_str = create_ptr(lines->strings, file->buf, file->len_buf);
+
+    //PRINT("\\delete unuseful symbols/ \n");
+
+    PRINT_ARG("count lines of output_file = %d\n", count_str);
+    
+    qsorting(lines->strings, 0, count_str-1, str_cmp);
+
+    PRINT("-------------------good-------------------------\n");
+/*
+    if (put_to_file(output_file, lines->strings, count_str) < 0)
+        exit(EXIT_FAILURE); //return -1;
+*/
+//-------------------------------------------------------------------------
+
+//2) learn about comparison ptr to function(IT DOESN'T WORK)
+
+void sort_file (const char * input_file, const char * output_file, int (*str_cmp)(const void *, const void *))
+{
+    if ((*strcmp) == (*cmp_direct))
+        PRINT("Regime: cmp_direct\n");
+    else if ((*strcmp) == (*cmp_reverse))
+        PRINT("Regime: cmp_reverse\n"); 
+}
+
+//-------------------------------------------------------------------------
+
+//3) learn about defines!

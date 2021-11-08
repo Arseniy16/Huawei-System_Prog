@@ -1,0 +1,9 @@
+<map id="main.c" name="main.c">
+<area shape="rect" id="node1" title="This program solve square equation." alt="" coords="183,5,244,32"/>
+<area shape="rect" id="node2" href="$main_8h.html" title="This file unique all libraries in one main.h" alt="" coords="183,80,244,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,155,67,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="91,155,154,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="179,155,248,181"/>
+<area shape="rect" id="node6" href="$_solve_square_8h.html" title="This library contains all necessary functions for this program" alt="" coords="272,155,379,181"/>
+<area shape="rect" id="node7" href="$_unit_test_8h.html" title="This UnitTest&#45;library allows to DEBUG program on UnitTests" alt="" coords="403,155,485,181"/>
+</map>
