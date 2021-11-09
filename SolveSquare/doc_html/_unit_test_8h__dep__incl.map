@@ -1,7 +1,0 @@
-<map id="UnitTest.h" name="UnitTest.h">
-<area shape="rect" id="node1" title="This UnitTest&#45;library allows to DEBUG program on UnitTests" alt="" coords="103,5,185,32"/>
-<area shape="rect" id="node2" href="$main_8h.html" title="This file unique all libraries in one main.h" alt="" coords="113,80,175,107"/>
-<area shape="rect" id="node3" href="$main_8c.html" title="This program solve square equation." alt="" coords="5,155,67,181"/>
-<area shape="rect" id="node4" href="$_solve_square_8c.html" title="This file contains all necessary functions to solve square eqution" alt="" coords="91,155,197,181"/>
-<area shape="rect" id="node5" href="$_unit_test_8c.html" title="This file contains function for testing program on UnitTests." alt="" coords="221,155,304,181"/>
-</map>

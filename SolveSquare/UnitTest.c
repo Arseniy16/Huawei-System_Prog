@@ -146,7 +146,7 @@ void UnitTest ()
 
     //------------------------------------------------------------------------------
 
-    for (int i = 1; i < 28; i++)
+    for (int i = 0; i < 27; i++)
     {
         int state = SolveSquare(in[i].a, in[i].b, in[i].c, &x1, &x2);
 
@@ -154,12 +154,12 @@ void UnitTest ()
         {
             if (state == UNDEF)
             {
-                printf("Test_%d passed\n", i);
+                printf("Test_%d passed\n", i+1);
                 num_of_test_good++;
             }
             else
             {
-                printf("Test_%d failed\n", i);
+                printf("Test_%d failed\n", i+1);
                 num_of_test_bad++;
             }
         }
@@ -168,12 +168,12 @@ void UnitTest ()
         {
             if (state == NO_ROOTS)
             {
-                printf("Test_%d passed\n", i);
+                printf("Test_%d passed\n", i+1);
                 num_of_test_good++;
             }
             else
             {
-                printf("Test_%d failed\n", i);
+                printf("Test_%d failed\n", i+1);
                 num_of_test_bad++;
             }
         }
@@ -182,12 +182,12 @@ void UnitTest ()
         {
             if ((state == ONE_ROOT) && (compare_value(x1) == out[i].x1))
             {
-                printf("Test_%d passed\n", i);
+                printf("Test_%d passed\n", i+1);
                 num_of_test_good++;
             }
             else
             {
-                printf("Test_%d failed\n", i);
+                printf("Test_%d failed\n", i+1);
                 num_of_test_bad++;
             }
         }
@@ -196,12 +196,12 @@ void UnitTest ()
         {
             if ((state == TWO_ROOTS) && (compare_value(x1) == out[i].x1) && (compare_value(x2) == out[i].x2))
             {
-                printf("Test_%d passed\n", i);
+                printf("Test_%d passed\n", i+1);
                 num_of_test_good++;
             }
             else
             {
-                printf("Test_%d failed\n", i);
+                printf("Test_%d failed\n", i+1);
                 num_of_test_bad++;
             }
         }
